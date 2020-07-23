@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Chapters Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+
+<p id="p1">Yah! I can write HTML content through JavaScript</p>
+
+ 
+<!-- CHAPTER 43 to 48
+Q#1  -->
+<img width="120px" onclick="message();" src="https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/Apple-iPhone-11-Pro-Max/Midnight-Green/Apple-iPhone-11-Pro-Max-Midnight-Green-frontimage.jpg" alt="">
+<img width="170px" onclick="message();" src="https://propakistani.pk/price/wp-content/uploads/2016/11/Untitled-1-4-240x300.jpg" alt="">
+<img width="200px" onclick="message();" src="https://static.toiimg.com/thumb/msid-67676339,width-320,resizemode-4/OPPO-F11-Pro.jpg" alt="">
+ 
+ 
+ <!-- CHAPTER 43 to 48
+Q#3 -->
+
+<div>
+
+<table>
+<tr>
+    <th>Index</th>
+    <th>Name</th>
+    <th>Class</th>
+</tr>
+
+<tr id="row">
+    <td>0</td>
+    <td>John</td>
+    <td>10</td>
+    <td><button onclick="RemoveRow();">Delete</button></td>
+</tr>
+
+<tr id="row">
+    <td>1</td>
+    <td>Doe</td>
+    <td>9</td>
+    <td><button  onclick="RemoveRow();">Delete</button></td>
+</tr>
+
+
+<tr id="row">
+    <td>2</td>
+    <td>Mark</td>
+    <td>10</td>
+    <td><button  onclick="RemoveRow();">Delete</button></td>
+</tr>
+
+<tr id="row">
+    <td>3</td>
+    <td>James</td>
+    <td>8</td>
+    <td><button  onclick="RemoveRow();">Delete</button></td>
+</tr>
+
+
+
+</table>
+</div>
+
+<!-- CHAPTER 43 to 48
+// 4 -->
+
+
+ <img id="car" class="car-image" src="https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" onmouseover="ChangeImage()" onmouseout="RealImage();" alt="">
+
+<!-- // 5 -->
+
+<div class="count-div">
+<button onclick="countAdd();" id="add">+</button>
+<input type="number" value="0" id="count-input">
+<button onclick="countsubs();" id="substract">-</button>
+</div>
+
+<!-- ////////CHAPTER 49 to 52/////////
+
+//2 -->
+
+
+
+<p id="para">JavaScript runs on the client side of the web <a href="javascript:void(0);" onclick="readMore()">read more</a></p>
+
+<div class="container">
+<div id="error-message"></div>
+    <form class="MyForm" onsubmit="return validation();">
+<div class="input-field">
+    <input type="text" placeholder="Name" id="name">
+</div>
+
+<div class="input-field">
+    <input type="email" placeholder="Email" id="email">
+</div>
+
+<div class="btn">
+    <input type="submit">
+</div>
+
+</form>
+
+
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>

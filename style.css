@@ -1,0 +1,15 @@
+.car-image{
+    height: 300px;
+    width: 40%;
+}
+
+.count-div{
+    width: 20%;
+    margin: auto;
+    display: inline-flex;
+}
+
+#add, #substract, #count-input{
+   
+    padding: 10px;
+}
